@@ -1,4 +1,4 @@
-{% set version = "3.0.9" %}
+{% set version = "3.0.10" %}
 
 package:
   name: djhtml
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/djhtml/djhtml-{{ version }}.tar.gz
-  sha256: b21d7e6836b5aa8fb415233eb853ad14fdc26694f19ed17158ba71c97fa23f39
+  sha256: dd4ebf778d3b7da7a6e6970f7e66740f08ed7485485491b9a80527f526c838d9
 
 build:
   entry_points:
