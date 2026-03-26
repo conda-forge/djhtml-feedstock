@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 3.0.10
+  version: "3.0.11"
 
 package:
   name: djhtml
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/djhtml/djhtml-${{ version }}.tar.gz
-  sha256: dd4ebf778d3b7da7a6e6970f7e66740f08ed7485485491b9a80527f526c838d9
+  sha256: dbaf55684294bda6486a094954e43847a1c0945e521282e008a9aabdac245688
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
